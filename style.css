@@ -1,3 +1,128 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
-    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header */
+header {
+    background: #0077b6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Image Styling */
+.image-section img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Biography Section */
+.bio {
+    padding: 20px;
+    text-align: left;
+}
+
+.bio h2 {
+    color: #333;
+    border-bottom: 2px solid #0077b6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio ul li {
+    background: #e3f2fd;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Quote Section */
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #555;
+    margin: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-left: 5px solid #0077b6;
+}
+
+/* More Info Section */
+.more-info {
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #005f8a;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
